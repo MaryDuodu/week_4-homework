@@ -18,7 +18,6 @@ li {
     margin-left: 10px;
     text-decoration: none;
     list-style: none;
-
 }
 
 #contactinfo {
@@ -68,3 +67,33 @@ li {
     border-bottom-color: yellow;
     display: block;
 }
+
+/* #section-resturant {
+} */
+
+#resturant_heading {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+#resturant-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#resturant-images > * {
+    border-radius: 5%;
+    margin-right: 25px;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* .offer-images {
+  
+}
+
+ */
