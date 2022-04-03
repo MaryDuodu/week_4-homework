@@ -50,7 +50,7 @@
     </section>
 
     <section>
-        <div id="section-offers">
+        <div class="section-header">
             <h3>What we offer</h3>
             <div class="underline"></div>
         </div>
@@ -83,49 +83,86 @@
                 fruits and vegetables fresh from the farmers' market.
             </p>
 
-            <tr>
-                <td rowspan="2"><img src="/images/pastery-0.jpg" alt=""></td>
-                <td><img src="/images/bakery-7.jpg" alt=""></td>
-                <td class="empty box">
-                    <div></div>
-                </td>
-            </tr>
+            <div class="wrapper">
+                <div class="one">One</div>
+                <div class="two">Two</div>
+                <div class="three">Three</div>
+                <div class="four">Four</div>
+                <div class="five">Five</div>
+                <div class="six">Six</div>
+                <div class="seven">Seven</div>
+                <div class="eight">Eight</div>
+                <div class="nine">nine</div>
 
-            <tr>
-                <td class="empty box">
-                    <div></div>
-                </td>
-                <td rowspan="2"><img src="/images/bakery-2.jpg" alt=""></td>
-            </tr>
+                <!-- 
+                <div class="ten">ten</div>
+                <div class="eleven">eleven</div>
+                <div class="twelve">twelve</div>
+                <div class="thirteen">thirteen</div>
+                <div class="fourteen">fourteen</div>
+                <div class="fifteen">fifteen</div>
+                <div class="sixteen">sixteen</div>
 
-            <tr>
-                <td class="empty box">
-                    <div></div>
-                </td>
-                <td><img src="/images/patries-5.jpg" alt=""></td>
+                 -->
+              </div>
 
-            </tr>
-            <td class="empty box">
-                <div></div>
-            </td>
-            <td><img src="/images/cake-1.jpg" alt=""></td>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2"><img src="/images/pastery-0.jpg" alt=""></td>
+                        <td><img src="/images/bakery-7.jpg" alt=""></td>
+                        <td class="empty box">
+                            <div></div>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td><img src="/images/pateries-1.jpg" alt=""></td>
-                <td><img src="/images/bread-3.jpg" alt=""></td>
-                <td class="empty box">
-                    <div></div>
-                </td>
-            </tr>
+                    <tr>
+                        <td class="empty box">
+                            <div></div>
+                        </td>
+                        <td rowspan="2"><img src="/images/bakery-2.jpg" alt=""></td>
+                    </tr>
 
+                    <tr>
+                        <td class="empty box">
+                            <div></div>
+                        </td>
+                        <td><img src="/images/patries-5.jpg" alt=""></td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="empty box">
+                            <div></div>
+                        </td>
+                        <td><img src="/images/cake-1.jpg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="/images/pateries-1.jpg" alt=""></td>
+                        <!-- <td><img src="/images/bread-3.jpg" alt=""></td> -->
+                        <td class="empty box">
+                            <div></div>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
         </div>
     </section>
 
     <section id="section-resturant">
-        
-        <div id="resturant_heading">
+
+        <div class="section-header"">
             <h3>Restaurant Menu</h3>
-            <div class="underline"></div>
+            <div class=" underline"></div>
         </div>
 
         <div id="resturant-images">
@@ -135,29 +172,37 @@
         </div>
     </section>
 
-    <section>
-        <h3>Our bread</h3>
-        <div>
-            <img src="/images/bread.jpg" alt=""> <br />
-            <p>
-            <h3>Rye bread</h3>
-            <p>100% whole grain tye sourdough
-                bread - No wheat added</p>
-            </p>
-            <img src="/images/bread-4.jpg" alt=""> <br />
-            <p>
-            <h3>Wheat bread</h3>
-            <p>100% whole wheat bread-
-                Nutty taste</p>
-            </p>
-            <img src="/images/picture-2.jpg" alt=""> <br />
-            <p>
-            <h3>Croissant</h3>
-            <p>Classic French croissant with
-                salted butter</p>
-            </p>
-            <button>More</button>
+    <section id="section-bread">
+
+        <div class="section-header">
+            <h3>Our bread</h3>
+            <div class="underline"></div>
         </div>
+
+        <div id="bread-images">
+            <div>
+                <img src="/images/bread.jpg" alt=""> <br />
+                <h3>Rye bread</h3>
+                <p>100% whole grain tye sourdough
+                    bread - No wheat added</p>
+            </div>
+
+            <div>
+                <img src="/images/bread-4.jpg" alt=""> <br />
+                <h3>Wheat bread</h3>
+                <p>100% whole wheat bread-
+                    Nutty taste</p>
+            </div>
+
+            <div>
+                <img src="/images/picture-2.jpg" alt=""> <br />
+                <h3>Croissant</h3>
+                <p>Classic French croissant with
+                    salted butter</p>
+            </div>
+        </div>
+        <button>More</button>
+
     </section>
 
     <section>
@@ -168,6 +213,7 @@
         <div>
             <form action="#">
                 <h3>Subscribe to our newsletter</h3>
+                <div class="underline"></div>
                 <hr />
                 <p>Join our email newsletter and always be the first to hear
                     about new products and promotions.
