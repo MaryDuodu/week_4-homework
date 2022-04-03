@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: inline-flex;
+    text-decoration: none;
+    padding-left: 100px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(227, 227, 230);
+    line-height: normal;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#contactinfo {
+    display: inline;
+   float: right;
+   color: red;
+}
+
+.nav-subtext{
+    text-decoration: none;
+    color: brown;
+    display: block;
+}
+
+#header_image {
+    width: 100%;
+    height: 500px;
+}
+
+.offer-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.img-circled {
+    border-radius: 50%;
+    margin-right: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+#section-offers {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.underline {
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 70px;
+    height: 5px;
+    background-color: #d1baa5;
+    border-color: blue;
+    border-bottom-color: yellow;
+    display: block;
+}
