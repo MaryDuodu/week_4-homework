@@ -1,23 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* body{
+    background-color: #B18C6D;
+    padding-top: 110px;
+    margin-left: 100px;
+} */
+
 .navbar {
     display: inline-flex;
     text-decoration: none;
-    padding-left: 100px;
-    height: 70px;
+    /* padding-left: 100px; */
+    height: 100px;
     width: 100%;
     background-color: rgb(227, 227, 230);
     line-height: normal;
     justify-content: space-evenly;
 }
 
+ul{
+        padding-top: 30px;
+}
+
 li {
     margin-left: 10px;
     text-decoration: none;
     list-style: none;
+   
 }
 
 #contactinfo {
@@ -67,16 +82,27 @@ li {
     background-color: #fcf8ef;
 }
 
+#section_what-we-offer{
+    background-color: #FFFFFF;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
 .section-header {
     display: grid;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
+    padding-top: 200px;
+    padding: 0%;
+    padding-bottom: 150px;
 }
 
 #resturant-images {
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 #resturant-images>* {
@@ -104,12 +130,9 @@ li {
     color: #9f9f9f;
 }
 
-button {
-    width: 150px;
-    height: 40px;
-    background-color: #fefffe;
-    border-radius: 10px;
-    color: #a27b5c;
+#bread-images > div > img {
+width: 100px;
+height: 100px;
 }
 
 #section-bread>button {
@@ -218,3 +241,154 @@ td>img {
     width: 100%;
     height: 100%;
 }
+
+#section-story {
+    background-color: #0D4F72;
+    padding-top: 0%;
+    padding-right: 0%; 
+    margin-right: 30px;
+   
+}
+
+#story{
+    justify-content: center;
+    padding-bottom: 100px;
+    /* margin-top: 30px; */
+}
+
+#story > p{
+       color: #F9FEFD;
+       padding-left: 150px;
+       padding-right: 90px;
+       margin-top: 30px;
+   
+       font-style: normal;
+       font-size: large;
+            
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7EBEE;
+    height: 70vh;
+    width: 100vw;
+}
+
+.subscribe img{
+    height: 100%;
+    width: 50%;
+}
+
+.subscribe form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 130px;
+    /* padding-left: 50%; */
+
+}
+
+.subscribe form h3{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+.subscribe p{
+    font-size: 22px;
+    padding: 50px 50px;
+
+}
+
+ .form-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #d1baa5;
+    border-radius: 10px;
+    background-color: #E7EBEE;
+
+  
+
+
+}
+
+form input{
+    height: 50px;
+    width: 300px;
+    margin-right: 0;
+    border: none;
+    object-fit: contain;
+    margin-left: 5px;
+    background-color: #E7EBEE;
+
+
+}
+
+form button{
+    height: 50px;
+    width: 150px;
+    margin-left: 0;
+    background-color: #d1baa5;
+    border: none;
+    object-fit: contain;
+
+}
+
+#story >.section-header {
+    justify-content: center;
+    /* padding-top: 70px; */
+    font-family:cursive;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#3C3C3C;
+    padding: 0%;
+    width: 100vw;
+    height: 70vh;
+    
+}
+
+footer h3{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+     color:  #FDFDFD;
+     padding-top: 7rem;
+}
+
+.footer-ul {
+    color: #FDFDFD;
+    padding: 6rem 5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-ul li{
+    
+    padding-top: 40px;
+    font-size: 25px;
+    color: #E0E0E0;
+    
+}
+
+.footer-contactinfo{
+    padding: 6rem 5rem;
+    align-items: center;
+    font-size: 25px;
+    color: #E0E0E0;
+    justify-items: center;
+    display:grid;
+}
+
+.social-media-handle{
+    display: inline;
+    padding-top: 60vh; 
+    color: #E0E0E0;
+}
+
