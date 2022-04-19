@@ -49,7 +49,7 @@ li {
 
 #header_image {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .offer-images {
@@ -61,8 +61,8 @@ li {
 .img-circled {
     border-radius: 50%;
     margin-right: 50px;
-    width: 250px;
-    height: 250px;
+    width: 21rem;
+    height: 21rem;
 }
 
 .underline {
@@ -85,19 +85,18 @@ li {
 #section_what-we-offer{
     background-color: #FFFFFF;
     padding: 0%;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
 }
 
 .section-header {
     display: grid;
     justify-content: center;
-    margin-bottom: 200px;
-    padding-top: 200px;
-    padding: 0%;
-    padding-bottom: 150px;
-}
+    margin: 2rem 0 2rem 0;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
 
+}
 #resturant-images {
     display: flex;
     justify-content: center;
@@ -114,29 +113,57 @@ li {
 
 #section-bread {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 150px;
     background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    justify-content: center;
+    
 }
 
 #bread-images {
     display: flex;
+    justify-content: space-evenly;
+    /* width: 5rem; */
+
+
 }
 
 #bread-images>div>h3 {
     color: #555555;
+    font-size: 30px;
+    margin: 40px 50px;
+    margin-top: 80px;
+
+}
+
+#bread-images > div {
+    /* border: 1px solid black; */
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
 }
 
 #bread-images>div>p {
     color: #9f9f9f;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-right: 40px;
+    font-size: 25px;
 }
 
 #bread-images > div > img {
-width: 100px;
-height: 100px;
+width: 10rem;
+height: 10rem;
 }
 
 #section-bread>button {
-    justify-content: center;
+    padding: 8px 45px;
+    margin: 1.5rem 0 0 33rem;
+    cursor: pointer;
 }
 
 td>img {
@@ -146,11 +173,18 @@ td>img {
 
 #section-story {
     display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bread-images div img p{
+    justify-content: center;
+    align-items: center;
 }
 
 #story {
     /* min-width: 50%; */
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 /* .wrapper > div > img {
@@ -350,7 +384,7 @@ form button{
     background-color:#3C3C3C;
     padding: 0%;
     width: 100vw;
-    height: 70vh;
+    height: 65vh;
     
 }
 
@@ -378,7 +412,7 @@ footer h3{
 }
 
 .footer-contactinfo{
-    padding: 6rem 5rem;
+    padding: 6rem 6rem;
     align-items: center;
     font-size: 25px;
     color: #E0E0E0;
@@ -388,7 +422,11 @@ footer h3{
 
 .social-media-handle{
     display: inline;
-    padding-top: 60vh; 
+    padding-top: 55vh; 
     color: #E0E0E0;
+}
+
+.bread-images{
+    
 }
 
